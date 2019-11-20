@@ -20,7 +20,32 @@
    
     <p>
       <%= form.label :email %><br>
-      <%= form.text_area :email %>
+      <%= form.text_field :email %>
+    </p>
+
+    <p>
+      <%= form.label :year %><br>
+      <%= form.text_field :year %>
+    </p>
+
+    <p>
+      <%= form.label :major %><br>
+      <%= form.text_field :major %>
+    </p>
+
+    <p>
+      <%= form.label "Teaching Philosophy" %><br>
+      <%= form.text_area :philosophy %>
+    </p>
+
+    <p>
+      <%= form.label "Courses Taken" %><br>
+      <%= form.text_area :courses %>
+    </p>
+
+    <p>
+      <%= form.label "About Me" %><br>
+      <%= form.text_area :about %>
     </p>
    
     <p>

@@ -8,4 +8,29 @@
   <%= @profile.email %>
 </p>
 
+<p>
+  <strong>Year:</strong>
+  <%= @profile.year %>
+</p>
+
+<p>
+  <strong>Major:</strong>
+  <%= @profile.major %>
+</p>
+
+<p>
+  <strong>Teaching Philosophy:</strong>
+  <%= @profile.philosophy %>
+</p>
+
+<p>
+  <strong>Courses Taken:</strong>
+  <%= @profile.courses %>
+</p>
+
+<p>
+  <strong>About Me:</strong>
+  <%= @profile.about %>
+</p>
+
 <%= link_to 'Edit', edit_profile_path(@profile) %> | <%= link_to 'Back to profiles', profiles_path %>
